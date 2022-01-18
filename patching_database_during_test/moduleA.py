@@ -2,7 +2,7 @@
 # from testing_examples.database import get_driver
 
 # Get driver be patched by confest during tests
-from testing_examples import database
+from patching_database_during_test import database
 
 
 def main():

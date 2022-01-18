@@ -1,5 +1,5 @@
 # This will not be patched during tests
-from testing_examples.database import get_driver
+from patching_database_during_test.database import get_driver
 
 # Get driver be patched by confest during tests
 # from testing_examples import database
