@@ -2,7 +2,7 @@
 This example shows the difference in two ways of patching the concrete database connection when testing a module that uses the database.
 
 - **moduleA** has been correctly patched and ```get_driver``` method is replacted during the test
-- **moduleB** on the other has been patched inccorectly and attempts to use actual ```get_driver``` method(which currently raises NotImplementError)
+- **moduleB** on the other has been patched incorrectly and attempts to use actual ```get_driver``` method during the test(which currently raises NotImplementError)
 
 The difference between **moduleA.py** and **moduleB.py** is in the way they import ```get_driver``` method from **database.py**, one imports the entire object while the other imports just the method
 
