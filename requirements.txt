@@ -3,3 +3,4 @@ autopep8
 flake8
 black
 pytest-mock
+ghapi
