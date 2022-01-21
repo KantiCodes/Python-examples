@@ -4,6 +4,9 @@ This example shows the difference in two ways of patching the concrete database 
 - **moduleA** has been correctly patched and ```get_driver``` method is replacted during the test
 - **moduleB** on the other has been patched incorrectly and attempts to use actual ```get_driver``` method during the test(which currently raises NotImplementError)
 
+
+_See https://docs.python.org/3/library/unittest.mock.html#where-to-patch for more info on where to patch_
+
 The difference between **moduleA.py** and **moduleB.py** is in the way they import ```get_driver``` method from **database.py**, one imports the entire object while the other imports just the method
 
 
