@@ -1,9 +1,5 @@
-# This will not be patched during tests
+# This will not be patched during tests as we are importing 
 from patching_database_during_test.database import get_driver
-
-# Get driver be patched by confest during tests
-# from testing_examples import database
-
 
 def main():
     kelly = {"name": "Kelly", "happy": True}
