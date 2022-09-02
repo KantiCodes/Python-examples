@@ -1,7 +1,12 @@
-### Description
+# Description
 This example shows how to patch a method using an iterable (think of a queue). The patched method returns the 1st element of the iterable and the next time it's called it will return the next one... until emptied
 
 I patched ```math.random``` with a list of 3 elements and called it 3 times
+
+# Usage
+```pytest```
+
+# Content of test_something.py
 
 ```
 python3
