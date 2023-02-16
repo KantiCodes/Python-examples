@@ -1,5 +1,5 @@
 # Description
-Simple example of a function that asks for a divider and then logs the result of the division
+Example of a cli program that asks for a divider and then logs the result of the division
 
 
 # Usage 
