@@ -28,6 +28,9 @@ Given a mocked object assert that it has many calls (in any order)
 ## [bare_raise_exception](https://github.com/KantiCodes/Python-examples/blob/main/bare_raise_exception)
 This examples targets command lines tools and shows how to enable a flag for verbose output of the error in the tool
 
+## [iterator_and_paging](https://github.com/KantiCodes/Python-examples/blob/main/iterator_and_paging)
+Custom iterable that pages over data, yielding items from one page before moving to the next
+
 ## [patch_modules](https://github.com/KantiCodes/Python-examples/blob/main/patch_modules)
 Simple patching of modules during test
 
